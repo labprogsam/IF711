@@ -3,6 +3,7 @@ package main
 import (
 	"atividade-5/base"
 	"fmt"
+	"log"
 	"os"
 	"strings"
 
@@ -53,11 +54,12 @@ func main() {
 	client := mqtt.NewClient(opts)
 
 	if token := client.Connect(); token.Wait() && token.Error() != nil {
-		panic(token.Error())
+		log.Fatalf("Erro ao conectar: %v", token.Error())
+		os.Exit(1)
 	}
 
 	if token := client.Subscribe(requestTopic, 0, handleRequest); token.Wait() && token.Error() != nil {
-		panic(token.Error())
+		log.Fatalf("Erro ao se inscrever n topico: %v", token.Error())
 	}
 
 	fmt.Println("MQTT server is running")

@@ -1,0 +1,183 @@
+========= LIST command test ========= 
+2025/07/23 00:51:39 list - 41.907826ms
+Files on server:
+test.txt
+2025/07/23 00:51:40 list - 41.34432ms
+Files on server:
+test.txt
+2025/07/23 00:51:40 list - 40.892617ms
+Files on server:
+test.txt
+2025/07/23 00:51:40 list - 44.086852ms
+Files on server:
+test.txt
+2025/07/23 00:51:40 list - 41.863109ms
+Files on server:
+test.txt
+2025/07/23 00:51:41 list - 41.741021ms
+Files on server:
+test.txt
+2025/07/23 00:51:41 list - 485.403µs
+Files on server:
+test.txt
+2025/07/23 00:51:41 list - 41.292514ms
+Files on server:
+test.txt
+2025/07/23 00:51:41 list - 416.077µs
+Files on server:
+test.txt
+2025/07/23 00:51:42 list - 41.191265ms
+Files on server:
+test.txt
+2025/07/23 00:51:42 list - 42.49014ms
+Files on server:
+test.txt
+2025/07/23 00:51:42 list - 483.312µs
+Files on server:
+test.txt
+2025/07/23 00:51:42 list - 43.604084ms
+Files on server:
+test.txt
+2025/07/23 00:51:43 list - 372.492µs
+Files on server:
+test.txt
+2025/07/23 00:51:43 list - 44.060099ms
+Files on server:
+test.txt
+2025/07/23 00:51:43 list - 41.84208ms
+Files on server:
+test.txt
+2025/07/23 00:51:43 list - 42.980166ms
+Files on server:
+test.txt
+2025/07/23 00:51:44 list - 41.0601ms
+Files on server:
+test.txt
+2025/07/23 00:51:44 list - 42.308076ms
+Files on server:
+test.txt
+2025/07/23 00:51:44 list - 42.319215ms
+Files on server:
+test.txt
+2025/07/23 00:51:44 list - 42.970624ms
+Files on server:
+test.txt
+2025/07/23 00:51:45 list - 41.392036ms
+Files on server:
+test.txt
+2025/07/23 00:51:45 list - 43.945702ms
+Files on server:
+test.txt
+2025/07/23 00:51:45 list - 43.673173ms
+Files on server:
+test.txt
+2025/07/23 00:51:45 list - 41.409082ms
+Files on server:
+test.txt
+2025/07/23 00:51:46 list - 42.455816ms
+Files on server:
+test.txt
+2025/07/23 00:51:46 list - 42.687501ms
+Files on server:
+test.txt
+2025/07/23 00:51:46 list - 42.089472ms
+Files on server:
+test.txt
+2025/07/23 00:51:46 list - 391.641µs
+Files on server:
+test.txt
+2025/07/23 00:51:47 list - 44.137386ms
+Files on server:
+test.txt
+========= UPLOAD command test ========= 
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+ERROR: File not found
+========= DOWNLOAD command test ========= 
+2025/07/23 00:51:53 download - 44.197554ms
+File downloaded: test.txt
+2025/07/23 00:51:54 download - 40.472373ms
+File downloaded: test.txt
+2025/07/23 00:51:54 download - 43.074923ms
+File downloaded: test.txt
+2025/07/23 00:51:54 download - 43.715679ms
+File downloaded: test.txt
+2025/07/23 00:51:54 download - 43.119976ms
+File downloaded: test.txt
+2025/07/23 00:51:55 download - 48.10286ms
+File downloaded: test.txt
+2025/07/23 00:51:55 download - 42.027647ms
+File downloaded: test.txt
+2025/07/23 00:51:55 download - 41.982974ms
+File downloaded: test.txt
+2025/07/23 00:51:55 download - 43.162567ms
+File downloaded: test.txt
+2025/07/23 00:51:56 download - 41.988373ms
+File downloaded: test.txt
+2025/07/23 00:51:56 download - 436.806µs
+File downloaded: test.txt
+2025/07/23 00:51:56 download - 42.657372ms
+File downloaded: test.txt
+2025/07/23 00:51:56 download - 42.285007ms
+File downloaded: test.txt
+2025/07/23 00:51:57 download - 40.849607ms
+File downloaded: test.txt
+2025/07/23 00:51:57 download - 510.203µs
+File downloaded: test.txt
+2025/07/23 00:51:57 download - 43.071803ms
+File downloaded: test.txt
+2025/07/23 00:51:57 download - 43.439432ms
+File downloaded: test.txt
+2025/07/23 00:51:58 download - 45.595559ms
+File downloaded: test.txt
+2025/07/23 00:51:58 download - 40.726671ms
+File downloaded: test.txt
+2025/07/23 00:51:58 download - 47.908958ms
+File downloaded: test.txt
+2025/07/23 00:51:58 download - 41.703325ms
+File downloaded: test.txt
+2025/07/23 00:51:59 download - 406.99µs
+File downloaded: test.txt
+2025/07/23 00:51:59 download - 43.085277ms
+File downloaded: test.txt
+2025/07/23 00:51:59 download - 40.243579ms
+File downloaded: test.txt
+2025/07/23 00:51:59 download - 43.469569ms
+File downloaded: test.txt
+2025/07/23 00:52:00 download - 42.545634ms
+File downloaded: test.txt
+2025/07/23 00:52:00 download - 42.059774ms
+File downloaded: test.txt
+2025/07/23 00:52:00 download - 421.623µs
+File downloaded: test.txt
+2025/07/23 00:52:00 download - 43.566891ms
+File downloaded: test.txt
+2025/07/23 00:52:01 download - 41.524988ms
+File downloaded: test.txt
