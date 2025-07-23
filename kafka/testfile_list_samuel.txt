@@ -1,213 +1,93 @@
 ========= LIST command test ========= 
-2025/07/23 00:57:28 list - 3.009830542s
-Files on server:
-test.txt
-2025/07/23 00:57:40 list - 3.026113911s
-Files on server:
-test.txt
-2025/07/23 00:57:52 list - 3.00845648s
-Files on server:
-test.txt
-2025/07/23 00:58:05 list - 3.008933726s
-Files on server:
-test.txt
-2025/07/23 00:58:17 list - 3.008480192s
-Files on server:
-test.txt
-2025/07/23 00:58:29 list - 3.008929138s
-Files on server:
-test.txt
-2025/07/23 00:58:41 list - 3.010031829s
-Files on server:
-test.txt
-2025/07/23 00:58:54 list - 3.009462442s
-Files on server:
-test.txt
-2025/07/23 00:59:06 list - 3.010268866s
-Files on server:
-test.txt
-2025/07/23 00:59:18 list - 3.009759216s
-Files on server:
-test.txt
-2025/07/23 00:59:30 list - 3.009813775s
-Files on server:
-test.txt
-2025/07/23 00:59:43 list - 3.009845168s
-Files on server:
-test.txt
-2025/07/23 00:59:55 list - 3.009353341s
-Files on server:
-test.txt
-2025/07/23 01:00:07 list - 3.009360439s
-Files on server:
-test.txt
-2025/07/23 01:00:19 list - 3.00893389s
-Files on server:
-test.txt
-2025/07/23 01:00:32 list - 3.009897598s
-Files on server:
-test.txt
-2025/07/23 01:00:44 list - 3.009801858s
-Files on server:
-test.txt
-2025/07/23 01:00:56 list - 3.009351578s
-Files on server:
-test.txt
-2025/07/23 01:01:08 list - 3.008463472s
-Files on server:
-test.txt
-2025/07/23 01:01:21 list - 3.008306723s
-Files on server:
-test.txt
-2025/07/23 01:01:33 list - 3.008356828s
-Files on server:
-test.txt
-2025/07/23 01:01:45 list - 3.009445988s
-Files on server:
-test.txt
-2025/07/23 01:01:57 list - 3.00832698s
-Files on server:
-test.txt
-2025/07/23 01:02:10 list - 3.009646469s
-Files on server:
-test.txt
-2025/07/23 01:02:22 list - 3.008910232s
-Files on server:
-test.txt
-2025/07/23 01:02:34 list - 3.008493261s
-Files on server:
-test.txt
-2025/07/23 01:02:46 list - 3.009778314s
-Files on server:
-test.txt
-2025/07/23 01:02:59 list - 3.008897569s
-Files on server:
-test.txt
-2025/07/23 01:03:11 list - 3.009223752s
-Files on server:
-test.txt
-2025/07/23 01:03:23 list - 3.009309311s
-Files on server:
-test.txt
+2025/07/21 00:57:28 list - 3.009830542s
+2025/07/21 00:57:40 list - 3.026113911s
+2025/07/21 00:57:52 list - 3.00845648s
+2025/07/21 00:58:05 list - 3.008933726s
+2025/07/21 00:58:17 list - 3.008480192s
+2025/07/21 00:58:29 list - 3.008929138s
+2025/07/21 00:58:41 list - 3.010031829s
+2025/07/21 00:58:54 list - 3.009462442s
+2025/07/21 00:59:06 list - 3.010268866s
+2025/07/21 00:59:18 list - 3.009759216s
+2025/07/21 00:59:30 list - 3.009813775s
+2025/07/21 00:59:43 list - 3.009845168s
+2025/07/21 00:59:55 list - 3.009353341s
+2025/07/21 01:00:07 list - 3.009360439s
+2025/07/21 01:00:19 list - 3.00893389s
+2025/07/21 01:00:32 list - 3.009897598s
+2025/07/21 01:00:44 list - 3.009801858s
+2025/07/21 01:00:56 list - 3.009351578s
+2025/07/21 01:01:08 list - 3.008463472s
+2025/07/21 01:01:21 list - 3.008306723s
+2025/07/21 01:01:33 list - 3.008356828s
+2025/07/21 01:01:45 list - 3.009445988s
+2025/07/21 01:01:57 list - 3.00832698s
+2025/07/21 01:02:10 list - 3.009646469s
+2025/07/21 01:02:22 list - 3.008910232s
+2025/07/21 01:02:34 list - 3.008493261s
+2025/07/21 01:02:46 list - 3.009778314s
+2025/07/21 01:02:59 list - 3.008897569s
+2025/07/21 01:03:11 list - 3.009223752s
+2025/07/21 01:03:23 list - 3.009309311s
 ========= UPLOAD command test ========= 
-2025/07/23 01:03:35 upload - 3.009392471s
-SUCCESS: File uploaded
-2025/07/23 01:03:48 upload - 3.008624214s
-SUCCESS: File uploaded
-2025/07/23 01:04:00 upload - 3.011565413s
-SUCCESS: File uploaded
-2025/07/23 01:04:12 upload - 3.008849298s
-SUCCESS: File uploaded
-2025/07/23 01:04:24 upload - 3.010615297s
-SUCCESS: File uploaded
-2025/07/23 01:04:36 upload - 3.009308278s
-SUCCESS: File uploaded
-2025/07/23 01:04:49 upload - 3.01201325s
-SUCCESS: File uploaded
-2025/07/23 01:05:01 upload - 3.00897022s
-SUCCESS: File uploaded
-2025/07/23 01:05:13 upload - 3.00933615s
-SUCCESS: File uploaded
-2025/07/23 01:05:25 upload - 3.008268908s
-SUCCESS: File uploaded
-2025/07/23 01:05:38 upload - 3.00950928s
-SUCCESS: File uploaded
-2025/07/23 01:05:50 upload - 3.008932097s
-SUCCESS: File uploaded
-2025/07/23 01:06:02 upload - 3.009943007s
-SUCCESS: File uploaded
-2025/07/23 01:06:14 upload - 3.009904768s
-SUCCESS: File uploaded
-2025/07/23 01:06:27 upload - 3.00923377s
-SUCCESS: File uploaded
-2025/07/23 01:06:39 upload - 3.00881468s
-SUCCESS: File uploaded
-2025/07/23 01:06:51 upload - 3.009515966s
-SUCCESS: File uploaded
-2025/07/23 01:07:03 upload - 3.00815837s
-SUCCESS: File uploaded
-2025/07/23 01:07:16 upload - 3.008914079s
-SUCCESS: File uploaded
-2025/07/23 01:07:28 upload - 3.008188826s
-SUCCESS: File uploaded
-2025/07/23 01:07:40 upload - 3.009465847s
-SUCCESS: File uploaded
-2025/07/23 01:07:52 upload - 3.009327796s
-SUCCESS: File uploaded
-2025/07/23 01:08:05 upload - 3.007908825s
-SUCCESS: File uploaded
-2025/07/23 01:08:17 upload - 3.009110662s
-SUCCESS: File uploaded
-2025/07/23 01:08:29 upload - 3.008992329s
-SUCCESS: File uploaded
-2025/07/23 01:08:41 upload - 3.009129768s
-SUCCESS: File uploaded
-2025/07/23 01:08:54 upload - 3.008540299s
-SUCCESS: File uploaded
-2025/07/23 01:09:06 upload - 3.009227284s
-SUCCESS: File uploaded
-2025/07/23 01:09:18 upload - 3.012282853s
-SUCCESS: File uploaded
-2025/07/23 01:09:30 upload - 3.009564664s
-SUCCESS: File uploaded
+2025/07/21 01:03:35 upload - 3.009392471s
+2025/07/21 01:03:48 upload - 3.008624214s
+2025/07/21 01:04:00 upload - 3.011565413s
+2025/07/21 01:04:12 upload - 3.008849298s
+2025/07/21 01:04:24 upload - 3.010615297s
+2025/07/21 01:04:36 upload - 3.009308278s
+2025/07/21 01:04:49 upload - 3.01201325s
+2025/07/21 01:05:01 upload - 3.00897022s
+2025/07/21 01:05:13 upload - 3.00933615s
+2025/07/21 01:05:25 upload - 3.008268908s
+2025/07/21 01:05:38 upload - 3.00950928s
+2025/07/21 01:05:50 upload - 3.008932097s
+2025/07/21 01:06:02 upload - 3.009943007s
+2025/07/21 01:06:14 upload - 3.009904768s
+2025/07/21 01:06:27 upload - 3.00923377s
+2025/07/21 01:06:39 upload - 3.00881468s
+2025/07/21 01:06:51 upload - 3.009515966s
+2025/07/21 01:07:03 upload - 3.00815837s
+2025/07/21 01:07:16 upload - 3.008914079s
+2025/07/21 01:07:28 upload - 3.008188826s
+2025/07/21 01:07:40 upload - 3.009465847s
+2025/07/21 01:07:52 upload - 3.009327796s
+2025/07/21 01:08:05 upload - 3.007908825s
+2025/07/21 01:08:17 upload - 3.009110662s
+2025/07/21 01:08:29 upload - 3.008992329s
+2025/07/21 01:08:41 upload - 3.009129768s
+2025/07/21 01:08:54 upload - 3.008540299s
+2025/07/21 01:09:06 upload - 3.009227284s
+2025/07/21 01:09:18 upload - 3.012282853s
+2025/07/21 01:09:30 upload - 3.009564664s
 ========= DOWNLOAD command test ========= 
-2025/07/23 01:09:43 download - 3.00917291s
-File downloaded: test.txt
-2025/07/23 01:09:55 download - 3.008243557s
-File downloaded: test.txt
-2025/07/23 01:10:07 download - 3.008879649s
-File downloaded: test.txt
-2025/07/23 01:10:19 download - 3.008809519s
-File downloaded: test.txt
-2025/07/23 01:10:32 download - 3.009380572s
-File downloaded: test.txt
-2025/07/23 01:10:44 download - 3.007794398s
-File downloaded: test.txt
-2025/07/23 01:10:56 download - 3.008212128s
-File downloaded: test.txt
-2025/07/23 01:11:08 download - 3.008513725s
-File downloaded: test.txt
-2025/07/23 01:11:21 download - 3.009023748s
-File downloaded: test.txt
-2025/07/23 01:11:33 download - 3.009591282s
-File downloaded: test.txt
-2025/07/23 01:11:45 download - 3.009368485s
-File downloaded: test.txt
-2025/07/23 01:11:57 download - 3.009065999s
-File downloaded: test.txt
-2025/07/23 01:12:10 download - 3.009488109s
-File downloaded: test.txt
-2025/07/23 01:12:22 download - 3.009417035s
-File downloaded: test.txt
-2025/07/23 01:12:34 download - 3.00840951s
-File downloaded: test.txt
-2025/07/23 01:12:46 download - 3.008785708s
-File downloaded: test.txt
-2025/07/23 01:12:58 download - 3.008434116s
-File downloaded: test.txt
-2025/07/23 01:13:11 download - 3.008960122s
-File downloaded: test.txt
-2025/07/23 01:13:23 download - 3.009267973s
-File downloaded: test.txt
-2025/07/23 01:13:35 download - 3.009761819s
-File downloaded: test.txt
-2025/07/23 01:13:47 download - 3.008198687s
-File downloaded: test.txt
-2025/07/23 01:14:00 download - 3.00918018s
-File downloaded: test.txt
-2025/07/23 01:14:12 download - 3.008889458s
-File downloaded: test.txt
-2025/07/23 01:14:24 download - 3.009343926s
-File downloaded: test.txt
-2025/07/23 01:14:36 download - 3.009066368s
-File downloaded: test.txt
-2025/07/23 01:14:49 download - 3.009588428s
-File downloaded: test.txt
-2025/07/23 01:15:01 download - 3.008648379s
-File downloaded: test.txt
-2025/07/23 01:15:13 download - 3.008749468s
-File downloaded: test.txt
-2025/07/23 01:15:25 download - 3.008956533s
-File downloaded: test.txt
-2025/07/23 01:15:38 download - 3.00935031s
-File downloaded: test.txt
+2025/07/21 01:09:43 download - 3.00917291s
+2025/07/21 01:09:55 download - 3.008243557s
+2025/07/21 01:10:07 download - 3.008879649s
+2025/07/21 01:10:19 download - 3.008809519s
+2025/07/21 01:10:32 download - 3.009380572s
+2025/07/21 01:10:44 download - 3.007794398s
+2025/07/21 01:10:56 download - 3.008212128s
+2025/07/21 01:11:08 download - 3.008513725s
+2025/07/21 01:11:21 download - 3.009023748s
+2025/07/21 01:11:33 download - 3.009591282s
+2025/07/21 01:11:45 download - 3.009368485s
+2025/07/21 01:11:57 download - 3.009065999s
+2025/07/21 01:12:10 download - 3.009488109s
+2025/07/21 01:12:22 download - 3.009417035s
+2025/07/21 01:12:34 download - 3.00840951s
+2025/07/21 01:12:46 download - 3.008785708s
+2025/07/21 01:12:58 download - 3.008434116s
+2025/07/21 01:13:11 download - 3.008960122s
+2025/07/21 01:13:23 download - 3.009267973s
+2025/07/21 01:13:35 download - 3.009761819s
+2025/07/21 01:13:47 download - 3.008198687s
+2025/07/21 01:14:00 download - 3.00918018s
+2025/07/21 01:14:12 download - 3.008889458s
+2025/07/21 01:14:24 download - 3.009343926s
+2025/07/21 01:14:36 download - 3.009066368s
+2025/07/21 01:14:49 download - 3.009588428s
+2025/07/21 01:15:01 download - 3.008648379s
+2025/07/21 01:15:13 download - 3.008749468s
+2025/07/21 01:15:25 download - 3.008956533s
+2025/07/21 01:15:38 download - 3.00935031s
