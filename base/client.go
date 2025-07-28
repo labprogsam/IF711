@@ -30,7 +30,7 @@ func (b *BaseClient) HandleCommand(args []string, params any) {
 	case "LIST":
 		start := time.Now()
 		resp := b.client.SendCommand("LIST", params)
-		log.Println(fmt.Sprintf("list - %v", time.Since(start)))
+		log.Printf("list - %v", time.Since(start))
 		fmt.Println("Files on server:\n" + resp)
 
 	case "UPLOAD":
@@ -48,7 +48,7 @@ func (b *BaseClient) HandleCommand(args []string, params any) {
 		fullCmd := fmt.Sprintf("UPLOAD %s %s", filename, encoded)
 		start := time.Now()
 		resp := b.client.SendCommand(fullCmd, params)
-		log.Println(fmt.Sprintf("upload - %v", time.Since(start)))
+		log.Printf("upload - %v", time.Since(start))
 		fmt.Println(resp)
 
 	case "DOWNLOAD":
@@ -59,7 +59,7 @@ func (b *BaseClient) HandleCommand(args []string, params any) {
 		filename := args[2]
 		start := time.Now()
 		resp := b.client.SendCommand("DOWNLOAD "+filename, params)
-		log.Println(fmt.Sprintf("download - %v", time.Since(start)))
+		log.Printf("download - %v", time.Since(start))
 
 		if strings.HasPrefix(resp, "ERROR") {
 			fmt.Println(resp)
