@@ -8,6 +8,7 @@ import (
 	"os/signal"
 	"strings"
 	"syscall"
+	"time"
 
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 )
@@ -23,6 +24,7 @@ type ServerMQTT struct {
 }
 
 func handleRequest(client mqtt.Client, msg mqtt.Message) {
+	start := time.Now()
 	server := &ServerMQTT{&base.BaseServer{}}
 	payload := string(msg.Payload())
 	parts := strings.SplitN(payload, " ", 4)
@@ -47,6 +49,8 @@ func handleRequest(client mqtt.Client, msg mqtt.Message) {
 	response := server.HandleRequest(command, filename, data)
 
 	client.Publish("file/response/"+clientID, 0, false, response)
+	log.Printf("- %v", time.Since(start))
+
 }
 
 func main() {
@@ -56,12 +60,11 @@ func main() {
 	client := mqtt.NewClient(opts)
 
 	if token := client.Connect(); token.Wait() && token.Error() != nil {
-		log.Fatalf("Erro ao conectar: %v", token.Error())
-		os.Exit(1)
+		panic(token.Error())
 	}
 
 	if token := client.Subscribe(requestTopic, 0, handleRequest); token.Wait() && token.Error() != nil {
-		log.Fatalf("Erro ao se inscrever n topico: %v", token.Error())
+		panic(token.Error())
 	}
 
 	fmt.Println("MQTT server is running")

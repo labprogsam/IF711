@@ -30,8 +30,7 @@ func (b *BaseClient) HandleCommand(args []string, params any) {
 	case "LIST":
 		start := time.Now()
 		resp := b.client.SendCommand("LIST", params)
-		log.Printf("list - %v", time.Since(start))
-		fmt.Println("Files on server:\n" + resp)
+		log.Printf("list - %v \n%s", time.Since(start), resp)
 
 	case "UPLOAD":
 		if len(args) < 3 {
@@ -48,8 +47,7 @@ func (b *BaseClient) HandleCommand(args []string, params any) {
 		fullCmd := fmt.Sprintf("UPLOAD %s %s", filename, encoded)
 		start := time.Now()
 		resp := b.client.SendCommand(fullCmd, params)
-		log.Printf("upload - %v", time.Since(start))
-		fmt.Println(resp)
+		log.Printf("upload - %v \n%s", time.Since(start), resp)
 
 	case "DOWNLOAD":
 		if len(args) < 3 {

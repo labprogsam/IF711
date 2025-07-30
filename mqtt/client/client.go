@@ -46,10 +46,7 @@ func (c *ClientMQTT) SendCommand(command string, input any) string {
 	payload := fmt.Sprintf("%s %s", params.clientID, command)
 	params.client.Publish(requestTopic, 0, false, payload)
 
-	for r := range responseChan {
-		return r
-	}
-	return ""
+	return <-responseChan
 }
 
 func (c *ClientMQTT) HandleCommand(cmd []string, params MQTTParams) {
